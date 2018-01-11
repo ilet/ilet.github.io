@@ -1,0 +1,1 @@
+function commify(r){if(r==-1/0||r==1/0)return r+[];for(var t="",n=r<0,e=0,h=(r=((r<0?-r:r)+[]).split("."))[1],i=(r=r[0]).length;i--;)(e=r.charAt(r.length-i))&&(t+=i%3?e:","+e);return(n?"-":"")+r.charAt()+t+(h?"."+h:"")}
