@@ -1,0 +1,1 @@
+var type={tm:function(t){var r=0,e=t.split(" "),n=arguments;if(e.length!=n.length-1)return!1;for(var o=0;o<e.length;o++)(function(t){for(var r=0,e=arguments,n=1;n<e.length;n++)for(var o=0;o<t.length;o++)t.charAt(o).toLowerCase()==Object.prototype.toString.call(e[n]).replace(/\[object (.+)\]/,"$1").charAt().toLowerCase()&&r++;return r>0})(e[o],n[o+1])&&r++;return r>=n.length-1}};
