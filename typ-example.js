@@ -19,7 +19,7 @@ function int_pow(x, y){
   return r;
 }
 int_pow(2, 3); // 16
-int_pow(2, 3); // some error
+int_pow(2, true); // some error
 
 // CAN IT MATCH MULTIPLE VALUE TYPES?? - yush:
 
