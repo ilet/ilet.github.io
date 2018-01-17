@@ -1,0 +1,1 @@
+function ilet(e){function t(e,t){(t=i.createElement("script")).src="https://ilet.github.io/m/"+e+".js",t.onload=function(){t.remove(),++o==n.length&&f&&f()},i.head.appendChild(t)}var n=arguments,i=document,o=f=0;if(n.length>1)for(var l=0;l<n.length;l++)t(n[l]);else t(e);return{ok:function(e){f=e}}}
