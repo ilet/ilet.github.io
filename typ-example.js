@@ -20,3 +20,10 @@ function int_pow(x, y){
 }
 int_pow(2, 3); // 16
 int_pow(2, 3); // some error
+
+// CAN IT MATCH MULTIPLE TYPES?? - yush:
+
+// All true:
+console.log(type.tm("sbn", 1));
+console.log(type.tm("sbn", true));
+console.log(type.tm("sbn", "1"));
