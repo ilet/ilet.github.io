@@ -13,7 +13,7 @@ function json_decode(str){
 function int_pow(x, y){
   var r=x;
   if (type.tm("n n", x, y))
-    for (;y-->0;)
+    for (;parseInt(y--)>0;)
       r*=x;
   else throw new TypeError(x+ " or " + y+" isn't a number, dude");
   return r;
