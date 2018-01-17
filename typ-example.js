@@ -21,9 +21,17 @@ function int_pow(x, y){
 int_pow(2, 3); // 16
 int_pow(2, 3); // some error
 
+// CAN IT MATCH MULTIPLE VALUE TYPES?? - yush:
+
+console.log(type.tm("n s b", 1, "1", true));
+
 // CAN IT MATCH MULTIPLE TYPES?? - yush:
 
 // All true:
 console.log(type.tm("sbn", 1));
 console.log(type.tm("sbn", true));
 console.log(type.tm("sbn", "1"));
+
+// CAN IT MATCH MULTIPLE TYPES OF MULTIPLE VALUES?? - yush:
+
+console.log(type.tm("sbn sbn sbn", 1, "1", true));
