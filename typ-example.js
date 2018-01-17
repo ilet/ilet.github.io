@@ -1,3 +1,7 @@
+// html: <script src="https://ilet.github.io/m/typ.js"></script>
+// tm:   @require     https://ilet.github.io/m/typ.js
+
+// Examples:
 function json_decode(str){
   if (type.tm("s", str))
     return new Function("return" + str)(); // bcaus eval is for babies
