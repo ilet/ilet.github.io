@@ -1,5 +1,7 @@
 // html: <script src="https://ilet.github.io/m/typ.js"></script>
 // tm:   @require     https://ilet.github.io/m/typ.js
+// hyp.js filesize: 382 bytes, can be useful for strict data type checking
+// anti-bug purposes only
 
 // Examples:
 function json_decode(str){
