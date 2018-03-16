@@ -1,5 +1,11 @@
 ~function(){
   var ctitle = document.title;
-  document.body.parentNode.innerHTML="<html><head></head><body></body></html>";
+  var ico = $("link[rel*=icon][href]"), h = "";
+  if (ico.length) ico = ico[0].outerHTML;
+  if ($("[data-dhnd]").length)
+    h+=$("[data-dhnd][data-mobile=yes]").length?'<meta name="viewport" content="width=device-width">',"";
+  document.body.parentNode.innerHTML="<html><head>"+h+ico+"</head><body></body></html>";
   document.title = ctitle;
+  
+  
 }();
