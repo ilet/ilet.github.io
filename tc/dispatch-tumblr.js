@@ -6,6 +6,9 @@
 		var d = $("[data-dhnd]");
 		$("head", D).append(d.attr("data-head"));
 		$("body", D).append(d.attr("data-body"));
+		console.log(0, d.attr("data-head"));
+		console.log(1, d.attr("data-body"));
+		console.log(2, D);
 	}
 	_.body.parentNode.innerHTML = "<html>"+D.html()+"</html>";
 	_.title = T;
