@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'text-security-circle';
+    src: url('https://ilet.github.io/fonts/text-security-circle.eot');
+    src: url('https://ilet.github.io/fonts/text-security-circle.eot?#iefix') format('embedded-opentype'),
+        url('https://ilet.github.io/fonts/https://ilet.github.io/fonts/text-security-circle.woff') format('woff'),
+        url('https://ilet.github.io/fonts/text-security-circle.ttf') format('truetype'),
+        url('https://ilet.github.io/fonts/text-security-circle.svg#text-security') format('svg');
+}
+@font-face {
+    font-family: 'text-security-square';
+    src: url('https://ilet.github.io/fonts/text-security-square.eot');
+    src: url('https://ilet.github.io/fonts/text-security-square.eot?#iefix') format('embedded-opentype'),
+        url('https://ilet.github.io/fonts/text-security-square.woff') format('woff'),
+        url('https://ilet.github.io/fonts/text-security-square.ttf') format('truetype'),
+        url('https://ilet.github.io/fonts/text-security-square.svg#text-security') format('svg');
+}
+@font-face {
+    font-family: 'text-security-disc';
+    src: url('https://ilet.github.io/fonts/text-security-disc.eot');
+    src: url('https://ilet.github.io/fonts/text-security-disc.eot?#iefix') format('embedded-opentype'),
+        url('https://ilet.github.io/fonts/text-security-disc.woff') format('woff'),
+        url('https://ilet.github.io/fonts/text-security-disc.ttf') format('truetype'),
+        url('https://ilet.github.io/fonts/text-security-disc.svg#text-security') format('svg');
+}
