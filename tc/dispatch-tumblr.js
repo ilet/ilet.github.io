@@ -4,8 +4,8 @@
 	if ($("[data-dhnd]").length)
 	{
 		var d = $("[data-dhnd]");
-		$("head", D).append($("data-head", d));
-		$("body", D).append($("data-body", d));
+		$("head", D).append(d.attr("data-head"));
+		$("body", D).append(d.attr("data-body"));
 	}
 	_.body.parentNode.innerHTML = "<html>"+D.html()+"</html>";
 	_.title = T;
